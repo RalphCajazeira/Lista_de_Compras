@@ -48,7 +48,14 @@ Lista de Compras/
 
 ## 📸 Layout
 
-Baseado em design no Figma, replicado com fidelidade.
+### Desktop | Mobile
+<div align="center" style="display: flex; gap: 1rem;">
+  <img src="screenshots/desktop.png" alt="Versão Desktop" width="80%" />
+  <img src="screenshots/mobile.png" alt="Versão Mobile" width="18%" />
+</div>
+
+
+Baseado em design do curso da **Rocketseat** no Figma, replicado com fidelidade.
 
 ## 🚀 Melhorias futuras
 
@@ -58,4 +65,4 @@ Baseado em design no Figma, replicado com fidelidade.
 
 ---
 
-Desenvolvido com 💻 por [Seu Nome]
+Desenvolvido com 💻 por **RalphMTK**
