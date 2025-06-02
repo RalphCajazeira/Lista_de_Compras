@@ -1,0 +1,22 @@
+.form-newItem {
+  & input {
+    width: 100%;
+    border-radius: 12px;
+    border: 2px solid var(--border-primary);
+    background-color: var(--bg--color-secondary);
+    padding: 0.6875rem 1.125rem;
+
+    &:hover {
+      border: 2px solid var(--border-hover);
+    }
+
+    &:focus {
+      border: 2px solid var(--color-brand);
+      outline: none;
+    }
+
+    &::placeholder {
+      color: var(--content-tertiary);
+    }
+  }
+}

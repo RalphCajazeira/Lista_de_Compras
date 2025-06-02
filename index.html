@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Compras</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/index.css" />
+  </head>
+  <body>
+    <header class="content">
+      <img src="assets/logo.svg" alt="logo" />
+    </header>
+
+    <nav class="content">
+      <a href="#"><- Voltar</a>
+    </nav>
+
+    <main class="content">
+      <h1>Compras da semana</h1>
+
+      <form id="formAddItem" class="form-newItem">
+        <input
+          type="text"
+          class="input-item"
+          placeholder="Adicione um novo item"
+          id="inputAddItem"
+          required
+        />
+        <button id="buttonAddItem" class="btn-add">Adicionar item</button>
+      </form>
+
+      <ul id="ulListItem">
+        <li class="item">
+          <input type="checkbox" />
+          <span>Pão de forma</span>
+          <button class="btn-delete">
+            <img src="assets/icos/bin.svg" alt="" />
+          </button>
+        </li>
+
+        <li class="item">
+          <input type="checkbox" />
+          <span>Café preto</span>
+          <button class="btn-delete">
+            <img src="assets/icos/bin.svg" alt="" />
+          </button>
+        </li>
+
+        <li class="item">
+          <input type="checkbox" />
+          <span>Suco de laranja</span>
+          <button class="btn-delete">
+            <img src="assets/icos/bin.svg" alt="" />
+          </button>
+        </li>
+
+        <li class="item">
+          <input type="checkbox" />
+          <span>Bolacha</span>
+          <button class="btn-delete">
+            <img src="assets/icos/bin.svg" alt="" />
+          </button>
+        </li>
+      </ul>
+
+      <div class="alert-delete">
+        <img src="assets/icos/warning-circle-filled.svg" alt="" />
+        <span>O item foi removido da lista</span>
+        <button class="btn-close">
+          <img src="assets/icos/delete-small.svg" alt="" />
+        </button>
+      </div>
+
+      <button id="btnRemoveChecked" class="btn-remove-checked">
+        Remover selecionados
+      </button>
+    </main>
+
+    <script src="scripts/scripts.js"></script>
+  </body>
+</html>
